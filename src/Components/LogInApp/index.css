@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+}
+.app-container{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    min-height:100vh;
+}
+.log-in-card{
+    background-image:linear-gradient(to bottom, #2b2c49,#303150, #b5b9ff);
+    padding:100px;
+    text-align:center;
+    height: 50%;
+    border-radius:24px;
+}
+.heading{
+    color: #ffffff;
+    font-family:"Roboto";
+    font-weight:700;
+    font-size:32px;
+}
+@media screen and (min-width: 768px){
+    .heading{
+        font-size:64px;
+    }
+}
+button{
+    font-size:10px;
+    border:none;
+    background-color:#f8fafc;
+    padding:8px;
+    border-radius:6px;
+    font-family: "Roboto";
+    color:#303150;
+}
+@media screen and (min-width: 768px){
+    button{
+        padding:12px;
+        font-size:20px;
+    }
+}
